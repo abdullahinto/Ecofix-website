@@ -1,0 +1,136 @@
+/* Eco Solutions Section */
+.eco-solutions {
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #00796b;
+}
+
+.solution {
+    display: inline-block;
+    width: 30%;
+    margin: 0 10px;
+    vertical-align: top;
+}
+
+.solution img {
+    width: 70%;
+    border-radius: 100px;
+}
+
+.solution h2 {
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    color: #00796b;
+    margin-top: 10px;
+}
+
+.solution p {
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5px;
+}
+
+.eco-solutions p {
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 80px;
+}
+
+/* Responsive Design */
+/* ... (Your responsive styles) */
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .solution {
+        width: 45%;
+        margin: 0 5px;
+    }
+
+    .section-heading {
+        font-size: 2.2rem;
+    }
+
+    .solution h2 {
+        font-size: 1.4rem;
+    }
+
+    .solution p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .eco-solutions {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .solution {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .section-heading {
+        font-size: 2rem;
+    }
+
+    .solution h2 {
+        font-size: 1.3rem;
+    }
+
+    .solution p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-heading {
+        font-size: 1.8rem;
+    }
+
+    .solution img {
+        width: 80%;
+    }
+
+    .solution h2 {
+        font-size: 1.2rem;
+    }
+
+    .solution p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .section-heading {
+        font-size: 1.5rem;
+    }
+
+    .solution img {
+        width: 90%;
+        border-radius: 50px;
+    }
+
+    .solution h2 {
+        font-size: 1.1rem;
+    }
+
+    .solution p {
+        font-size: 0.8rem;
+    }
+
+    .eco-solutions p {
+        font-size: 1rem;
+        margin-bottom: 60px;
+    }
+}

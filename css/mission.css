@@ -1,0 +1,112 @@
+/* Mission Section */
+.mission-section {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mission-background {
+    position: relative;
+}
+
+.mission-background img {
+    width: 95%;
+    border-radius: 30px;
+}
+
+.mission-message {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* white with glass effect */
+    padding: 40px 60px;
+    border-radius: 30px; /* Reduced border radius for mobile */
+    max-width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mission-message h2 {
+    font-size: 2rem; /* Adjusted font size for mobile */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #00796b;
+    margin-bottom: 20px;
+}
+
+.mission-message p {
+    font-size: 1rem; /* Adjusted font size for mobile */
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto; /* Center the text */
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .mission-background img {
+        width: 100%;
+    }
+
+    .mission-message {
+        padding: 20px 40px;
+        max-width: 70%;
+    }
+
+    .mission-message h2 {
+        font-size: 1.8rem;
+    }
+
+    .mission-message p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .mission-background img {
+        width: 100%;
+    }
+
+    .mission-message {
+        padding: 15px 30px;
+        max-width: 80%;
+    }
+
+    .mission-message h2 {
+        font-size: 1.6rem;
+    }
+
+    .mission-message p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .mission-message {
+        padding: 10px 20px;
+        max-width: 90%;
+    }
+
+    .mission-message h2 {
+        font-size: 1.4rem;
+    }
+
+    .mission-message p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .mission-message {
+        padding: 5px 10px;
+        max-width: 95%;
+    }
+
+    .mission-message h2 {
+        font-size: 1.2rem;
+    }
+
+    .mission-message p {
+        font-size: 0.8rem;
+    }
+}
